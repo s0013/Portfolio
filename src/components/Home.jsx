@@ -20,7 +20,7 @@ const Home = () => {
               Portfolio <span className='group-hover:rotate-90 duration-300'><RxDoubleArrowRight size={20} className='ml-1' /></span>
             </button>
           </div>
-        </div>
+          </div>
         <div>
           <img src={HeroImage} alt='my-profile' className='rounded-2xl mx-auto w-2/3 md:w-full' />
         </div>
