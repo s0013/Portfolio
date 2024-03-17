@@ -1,6 +1,7 @@
 import React from 'react';
 import HeroImage from '../assets/image.jpg';
-import { RxDoubleArrowRight } from "react-icons/rx";
+import { RiArrowRightSLine } from 'react-icons/ri';
+
 
 
 const Home = () => {
@@ -17,7 +18,7 @@ const Home = () => {
           </p>
           <div>
             <button to='portfolio' smooth duration={500} className='group text-white px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-700 cursor-pointer'>
-              Portfolio <span className='group-hover:rotate-90 duration-300'><RxDoubleArrowRight size={20} className='ml-1' /></span>
+              Portfolio <span className='group-hover:rotate-90 duration-300'><RiArrowRightSLine size={20} className='ml-1' /></span>
             </button>
           </div>
           </div>
