@@ -1,10 +1,10 @@
 import React from 'react'
-import project1 from '../assets/project1.jpg';
-import project2 from '../assets/project1.jpg';
-import project3 from '../assets/project1.jpg';
-import project4 from '../assets/project1.jpg';
-import project5 from '../assets/project1.jpg';
-import project6 from '../assets/project1.jpg';
+import project1 from '../assets/pro1.png';
+import project2 from '../assets/project2.jpg';
+import project3 from '../assets/project2.jpg';
+import project4 from '../assets/project2.jpg';
+import project5 from '../assets/project2.jpg';
+import project6 from '../assets/project2.jpg';
 
 
 
