@@ -33,9 +33,9 @@ const Home = () => {
              border-blue-500 
              transition duration-500 ease-in-out
              transform hover:-translate-y-1 hover:scale-110
-             z-10 absolute top-0 left-0'
+             z-10
+             '
 />
-
 
         </div>
       </div>
