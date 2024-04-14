@@ -1,7 +1,7 @@
 import React from 'react';
 import HeroImage from '../assets/image.jpg';
 import { RiArrowRightSLine } from 'react-icons/ri';
-
+import { Link } from 'react-scroll';
 
 
 const Home = () => {
@@ -16,10 +16,12 @@ const Home = () => {
             Self-motivated individual seeking a position where I can apply my technical expertise and leverage my
             excellent academic background to foster personal growth and gain valuable experience.
           </p>
-          <div>
-            <button to='portfolio' smooth duration={500} className='group text-white px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-700 cursor-pointer'>
-              Portfolio <span className='group-hover:rotate-90 duration-300'><RiArrowRightSLine size={20} className='ml-1' /></span>
-            </button>
+          <div style={{ width: '110px' }}>
+            <Link to='portfolio' 
+            smooth duration={500} 
+            className='group text-white px-4 py-2 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-700 cursor-pointer'>
+              Portfolio <span className='group-hover:rotate-90 duration-300'><RiArrowRightSLine size={25} className='ml-1' /></span></Link>
+            
           </div>
           </div>
         <div>
