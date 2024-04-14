@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroImage from '../assets/image.jpg';
+import HeroImage from '../assets/imagenew.png';
 import { RiArrowRightSLine } from 'react-icons/ri';
 import { Link } from 'react-scroll';
 
@@ -20,12 +20,23 @@ const Home = () => {
             <Link to='portfolio' 
             smooth duration={500} 
             className='group text-white px-4 py-2 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-700 cursor-pointer'>
-              Portfolio <span className='group-hover:rotate-90 duration-300'><RiArrowRightSLine size={25} className='ml-1' /></span></Link>
+              Projects <span className='group-hover:rotate-90 duration-300'><RiArrowRightSLine size={25} className='ml-1' /></span></Link>
             
           </div>
           </div>
         <div>
-          <img src={HeroImage} alt='my-profile' className='rounded-2xl mx-auto w-2/3 md:w-full' />
+        <img
+  src={HeroImage}
+  alt='my-profile'
+  className='rounded-full mx-auto w-2/3 md:w-full 
+             border-4 border-transparent 
+             border-blue-500 
+             transition duration-500 ease-in-out
+             transform hover:-translate-y-1 hover:scale-110
+             z-10
+             '
+/>
+
         </div>
       </div>
     </div>

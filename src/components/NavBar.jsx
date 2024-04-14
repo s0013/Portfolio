@@ -16,7 +16,7 @@ const NavBar = () => {
         },
         {
             id: 3,
-            link: 'portfolio'
+            link: 'projects'
         },
         {
             id: 4,
@@ -29,7 +29,7 @@ const NavBar = () => {
     ];
 
     return (
-        <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
+        <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed z-50">
             <div>
                 <h1 className='text-3xl font-signature ml-2'>
                     Shraddha Sonawane
