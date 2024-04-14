@@ -20,7 +20,7 @@ const Home = () => {
             <Link to='portfolio' 
             smooth duration={500} 
             className='group text-white px-4 py-2 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-700 cursor-pointer'>
-              Projects <span className='group-hover:rotate-90 duration-300'><RiArrowRightSLine size={25} className='ml-1' /></span></Link>
+              Project <span className='group-hover:rotate-90 duration-300'><RiArrowRightSLine size={25} className='ml-1' /></span></Link>
             
           </div>
           </div>
@@ -33,9 +33,9 @@ const Home = () => {
              border-blue-500 
              transition duration-500 ease-in-out
              transform hover:-translate-y-1 hover:scale-110
-             z-10
-             '
+             z-10 absolute top-0 left-0'
 />
+
 
         </div>
       </div>
