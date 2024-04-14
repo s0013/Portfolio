@@ -17,7 +17,7 @@ const Home = () => {
             excellent academic background to foster personal growth and gain valuable experience.
           </p>
           <div style={{ width: '110px' }}>
-            <Link to='portfolio' 
+            <Link to='projects' 
             smooth duration={500} 
             className='group text-white px-4 py-2 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-700 cursor-pointer'>
               Project <span className='group-hover:rotate-90 duration-300'><RiArrowRightSLine size={25} className='ml-1' /></span></Link>
