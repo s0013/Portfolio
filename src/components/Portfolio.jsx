@@ -5,6 +5,7 @@ import project3 from '../assets/pro3.png';
 import project4 from '../assets/pro4.png';
 import project5 from '../assets/pro5.png';
 import project6 from '../assets/pro6.png';
+import project7 from '../assets/pro7.png'
 
 const Portfolio = () => {
     const portfolios = [
@@ -22,9 +23,9 @@ const Portfolio = () => {
         },
         {
             id: 3,
-            src: project3, 
-            demo: ' https://travel-tech-site.netlify.app/',
-            code: 'https://github.com/s0013/Travel-Tech-Site'
+            src: project3,
+            demo: 'https://shraddhasonawane-expense-tracker.vercel.app/',
+            code: 'https://github.com/s0013/Expense-Tracker'
         },
         {
             id: 4,
@@ -43,6 +44,13 @@ const Portfolio = () => {
             src: project6,
             demo: 'https://shraddhasonawane-progresss.vercel.app/',
             code: 'https://github.com/s0013/progresss'
+        },
+        
+        {
+            id: 7,
+            src: project7, 
+            demo: ' https://travel-tech-site.netlify.app/',
+            code: 'https://github.com/s0013/Travel-Tech-Site'
         },
     ];
 
