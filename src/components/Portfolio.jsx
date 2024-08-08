@@ -7,6 +7,8 @@ import project5 from '../assets/pro5.png';
 import project6 from '../assets/pro6.png';
 import project7 from '../assets/pro7.png';
 import project8 from '../assets/pro8.png';
+import project9 from '../assets/pro9.png';
+import project10 from '../assets/pro10.png';
 
 const Portfolio = () => {
     const portfolios = [
@@ -58,7 +60,20 @@ const Portfolio = () => {
             src: project8, 
             demo: 'https://shraddhasonawane-resume-builder.vercel.app/',
             code: 'https://github.com/s0013/ResumeBuilder'
+        },
+        {
+            id: 9,
+            src: project9, 
+            demo: ' https://frontend-three-topaz-68.vercel.app/home',
+            code: 'https://github.com/s0013/frontend'
+        },
+        {
+            id: 10,
+            src: project10, 
+            demo: ' https://wondersofbharat-tourism-app.vercel.app/',
+            code: ''
         }
+
     ];
 
     return (
